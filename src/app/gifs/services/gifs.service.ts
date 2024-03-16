@@ -5,7 +5,7 @@ import { Gif, SearchResponse } from '../interfaces/gifs.interface';
 @Injectable({providedIn: 'root'})
 export class GifsService {
 
-  private gifList: Gif[] = [];
+  public gifList: Gif[] = [];
 
   private _tagHistory: string[] = [];
   private giphyApyKey: string = 'UzLDaJHleiZ4O0ZBIyOWhWfjk4gNPNlT';
